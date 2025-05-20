@@ -1,0 +1,104 @@
+/* Gen Z aesthetic vibes */
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@700&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(135deg, #ff6fd8, #3813c2);
+  font-family: 'Comic Neue', cursive, sans-serif;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  background: rgba(255 255 255 / 0.1);
+  padding: 2rem 3rem;
+  border-radius: 16px;
+  max-width: 420px;
+  text-align: center;
+  box-shadow: 0 0 15px rgba(255, 111, 216, 0.5);
+}
+
+.main-title {
+  font-size: 2.8rem;
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  text-shadow: 0 0 10px #ff6fd8;
+}
+
+.quote {
+  font-size: 1.3rem;
+  font-weight: 700;
+  min-height: 90px;
+  margin-bottom: 1.8rem;
+  text-shadow: 0 0 8px #fff6;
+  font-family: 'Comic Neue', cursive, sans-serif, 'Segoe UI Emoji', 'Noto Color Emoji', 'Apple Color Emoji', sans-serif;
+  white-space: normal;       
+  word-wrap: break-word; 
+}
+
+#meme {
+  max-width: 100%;
+  border-radius: 12px;
+  margin-top: 1.8rem;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.4);
+}
+
+.btn-container {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+button {
+  background: #ff6fd8;
+  border: none;
+  color: white;
+  padding: 0.65rem 1.4rem;
+  font-size: 1rem;
+  font-weight: 700;
+  border-radius: 9999px;
+  cursor: pointer;
+  box-shadow: 0 0 10px #ff6fd8aa;
+  transition: background 0.3s ease;
+  user-select: none;
+}
+
+button:hover {
+  background: #e056d0;
+}
+
+#loading {
+  font-style: italic;
+  margin-bottom: 1rem;
+  display: none;
+  color: #ffd6f7;
+}
+
+.dark {
+  background: linear-gradient(135deg, #1f1f3f, #5b327a);
+  color: #cfcce7;
+}
+
+.dark button {
+  background: #8c4dc7;
+  box-shadow: 0 0 10px #8c4dc7aa;
+}
+
+.dark button:hover {
+  background: #6f39a7;
+}
+
+.dark .container {
+  background: rgba(50, 38, 83, 0.85);
+  box-shadow: 0 0 20px #6f39a7aa;
+}
